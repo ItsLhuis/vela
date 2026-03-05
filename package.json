@@ -2,6 +2,7 @@
   "name": "vela",
   "version": "1.0.0",
   "description": "Real-time infrastructure monitoring landing page for developer teams",
+  "packageManager": "pnpm@10.30.3",
   "license": "MIT",
   "homepage": "https://itslhuis.github.io/vela",
   "repository": {
