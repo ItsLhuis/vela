@@ -5,6 +5,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -41,10 +43,20 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-surface: #E8E9EB;
+  --color-surface-border: #E0E0E0;
+  --color-dark: #1A1A1A;
+  --color-vela-accent: #6EE7B7;
+  --color-vela-warning: #F59E0B;
+  --color-gray-66: #666666;
+  --color-gray-99: #999999;
+  --color-gray-aa: #AAAAAA;
+  --color-gray-44: #444444;
+  --color-gray-33: #333333;
 }
 
 :root {
-  --radius: 0.625rem;
+  --radius: 0;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
